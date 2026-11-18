@@ -28,7 +28,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		de[i] = sr[i];
 		i++;
 	}
-	return (&dest[0]);
+	return (dest);
 }
 
 // int	main(void)
